@@ -12,7 +12,7 @@ const Dashboard = () => {
   ]);
 
   return (
-    <div className="flex flex-col items-center justify-center h-full p-5 bg-gradient-to-r from-pink-500 to-orange-500 text-white font-sans text-center">
+    <div className="flex flex-col items-center justify-center min-h-screen p-5 bg-gradient-to-r from-pink-500 to-orange-500 text-white font-sans text-center">
       <div className="container mx-auto mt-10 p-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {users.map((user) => (
