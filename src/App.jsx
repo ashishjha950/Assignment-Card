@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
-import Home from './components/Home'
-import Dashboard from './components/Dashboard'
+import Home from './Pages/Home'
+import Dashboard from './Pages/Dashboard'
 import Navbar from './components/Navbar'
 
 const App = () => {
